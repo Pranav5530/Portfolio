@@ -98,46 +98,55 @@ export interface PortfolioData {
  */
 export const portfolioData: PortfolioData = {
   personal: {
-    name: "Alex Morgan",
-    role: "Senior Full-Stack Engineer & Product Designer",
+    name: "Pranav",
+    role: "Full-Stack Developer & UI Designer",
     tagline: "Architecting high-performance web applications and human-centered digital experiences.",
-    shortBio: "I am a senior full-stack engineer and UI designer with over 6 years of experience building resilient cloud applications, high-throughput APIs, and polished interfaces. I combine deep engineering rigor with meticulous design precision to deliver fast, accessible products that users love.",
+    shortBio: "I am a full-stack developer and UI designer passionate about building resilient web applications, modern APIs, and polished interfaces. I combine deep engineering fundamentals with clean design precision to deliver fast, accessible products that users love.",
     fullBio: [
-      "Over the past 6+ years, I have helped fast-scaling startups and design-led enterprises translate intricate system architectures into fast, intuitive, and accessible digital products.",
-      "My philosophy centers on simplicity, web fundamentals, and obsessive performance tuning. Whether optimizing Web Vitals for sub-second paint times, designing design systems that scale across dozens of teams, or structuring microservice APIs, I build for longevity and maintainability.",
-      "When I am not coding, you can find me contributing to open-source developer tooling, exploring mechanical keyboards, or mentoring aspiring engineers in modern web standards."
+      "I specialize in modern JavaScript/TypeScript ecosystems, responsive frontend architectures, and high-performance backend systems.",
+      "My philosophy centers on simplicity, clean code, and intuitive user experiences. Whether optimizing Core Web Vitals for sub-second paint times, crafting modular design systems, or structuring REST & GraphQL APIs, I build for maintainability and speed.",
+      "When I am not coding, you can find me contributing to open-source developer tooling, exploring modern web standards, and experimenting with new tech stacks."
     ],
-    location: "San Francisco, CA (Open to Remote Worldwide)",
-    availability: "Available for high-impact roles & technical consulting",
+    location: "Available for Remote Worldwide",
+    availability: "Available for new opportunities & collaboration",
     isAvailable: true,
     resumeUrl: "#resume",
     avatarUrl: "/avatar.png"
   },
 
   stats: [
-    { label: "Years Experience", value: "6+", description: "Building production software" },
-    { label: "Shipped Projects", value: "35+", description: "From inception to scale" },
-    { label: "Active Users Served", value: "150k+", description: "Across global deployments" },
+    { label: "Years Experience", value: "3+", description: "Building web platforms" },
+    { label: "Shipped Projects", value: "15+", description: "From inception to launch" },
+    { label: "Code Commits", value: "1,200+", description: "Open source & production" },
     { label: "Average Lighthouse", value: "98+", description: "Performance & A11y focus" }
   ],
 
   socialLinks: [
     {
       platform: "GitHub",
-      url: "https://github.com",
-      username: "@alexmorgan",
+      url: "https://github.com/Pranav5530",
+      username: "@Pranav5530",
       icon: "Github"
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com",
-      username: "in/alexmorgan",
+      url: "https://linkedin.com/in/pranav",
+      username: "in/pranav",
       icon: "Linkedin"
     },
     {
       platform: "Email",
-      url: "mailto:alex.morgan.dev@example.com",
-      username: "alex.morgan.dev@example.com",
+      url: "mailto:contact.pranav.dev@gmail.com",
+      username: "contact.pranav.dev@gmail.com",
+      icon: "Mail"
+    },
+    {
+      platform: "Twitter",
+      url: "https://twitter.com",
+      username: "@pranav_dev",
+      icon: "Twitter"
+    }
+  ],
       icon: "Mail"
     },
     {
@@ -347,12 +356,12 @@ export const portfolioData: PortfolioData = {
   ],
 
   contact: {
-    email: "alex.morgan.dev@example.com",
-    displayEmail: "alex.morgan.dev@example.com",
-    phone: "+1 (555) 389-2041",
-    location: "San Francisco, California, USA",
-    timezone: "Pacific Time (PT) / UTC-7 (Collaborates globally)",
-    formspreeId: "", // Optional: Enter your Formspree ID here (e.g. "xpvzlbak") for direct email forwarding
-    responseExpectation: "I typically respond within 24 hours on business days."
+    email: "contact.pranav.dev@gmail.com",
+    displayEmail: "contact.pranav.dev@gmail.com",
+    phone: "+1 (555) 019-2834",
+    location: "Remote / Worldwide",
+    timezone: "UTC / IST / Flexible for global teams",
+    formspreeId: "", // Optional: Enter your Formspree ID here (e.g. "xpvzlbak")
+    responseExpectation: "I typically respond within 24 hours."
   }
 };

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://alexmorgan.dev';
+  const baseUrl = 'https://portfolio-pranav.vercel.app';
   return [
     {
       url: baseUrl,

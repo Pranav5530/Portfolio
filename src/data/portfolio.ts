@@ -107,10 +107,10 @@ export const portfolioData: PortfolioData = {
       "My philosophy centers on simplicity, clean code, and intuitive user experiences. Whether optimizing Core Web Vitals for sub-second paint times, crafting modular design systems, or structuring REST & GraphQL APIs, I build for maintainability and speed.",
       "When I am not coding, you can find me contributing to open-source developer tooling, exploring modern web standards, and experimenting with new tech stacks."
     ],
-    location: "Available for Remote Worldwide",
+    location: "Available for Remote Worldwide", // TODO: Replace with your specific city/country if desired
     availability: "Available for new opportunities & collaboration",
     isAvailable: true,
-    resumeUrl: "#resume",
+    resumeUrl: "#resume", // TODO: Add link to your resume file (e.g., '/resume.pdf' in public folder)
     avatarUrl: "/avatar.png"
   },
 
@@ -130,30 +130,15 @@ export const portfolioData: PortfolioData = {
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/pranav",
-      username: "in/pranav",
+      url: "https://linkedin.com/in/TODO_LINKEDIN", // TODO: Add your LinkedIn profile URL
+      username: "in/TODO",
       icon: "Linkedin"
     },
     {
       platform: "Email",
-      url: "mailto:contact.pranav.dev@gmail.com",
-      username: "contact.pranav.dev@gmail.com",
+      url: "mailto:TODO_EMAIL@example.com", // TODO: Add your email address
+      username: "TODO_EMAIL@example.com",
       icon: "Mail"
-    },
-    {
-      platform: "Twitter",
-      url: "https://twitter.com",
-      username: "@pranav_dev",
-      icon: "Twitter"
-    }
-  ],
-      icon: "Mail"
-    },
-    {
-      platform: "Twitter",
-      url: "https://twitter.com",
-      username: "@alexmorgan_dev",
-      icon: "Twitter"
     }
   ],
 
@@ -218,9 +203,9 @@ export const portfolioData: PortfolioData = {
         "Designed dark-mode visual charts with Canvas API rendering 100k data points smoothly",
         "Built role-based multi-tenant organization workspaces with zero-latency switching"
       ],
-      techStack: ["Next.js 14", "TypeScript", "Tailwind CSS", "WebSockets", "PostgreSQL", "Redis"],
-      liveUrl: "https://example.com/pulse-analytics",
-      githubUrl: "https://github.com/example/pulse-analytics",
+      techStack: ["Next.js", "TypeScript", "Tailwind CSS", "WebSockets", "PostgreSQL", "Redis"],
+      liveUrl: "https://example.com/pulse-analytics", // TODO: Replace with your project demo URL
+      githubUrl: "https://github.com/Pranav5530", // TODO: Replace with project repository URL
       featured: true,
       imageAlt: "PulseAnalytics telemetry dashboard preview showing real-time event graphs and system health gauges"
     },
@@ -233,11 +218,11 @@ export const portfolioData: PortfolioData = {
       highlights: [
         "Automated semantic color contrast validation complying with WCAG 2.1 AAA",
         "Exported tree-shakable React component library with 45+ primitives",
-        "Adopted by 12 cross-functional product squads across 3 business units"
+        "Adopted by cross-functional product squads across multiple business units"
       ],
       techStack: ["React", "TypeScript", "Tailwind CSS", "Radix UI", "Figma REST API", "Vite"],
-      liveUrl: "https://example.com/synthetix",
-      githubUrl: "https://github.com/example/synthetix-design-tokens",
+      liveUrl: "https://example.com/synthetix", // TODO: Replace with your project demo URL
+      githubUrl: "https://github.com/Pranav5530", // TODO: Replace with project repository URL
       featured: true,
       imageAlt: "Synthetix UI design token editor interface with interactive color schemes and typography preview"
     },
@@ -253,8 +238,8 @@ export const portfolioData: PortfolioData = {
         "Decreased cart abandonment rate by 18% through a streamlined 2-step checkout flow"
       ],
       techStack: ["Next.js App Router", "Tailwind CSS", "TypeScript", "Stripe API", "PostgreSQL"],
-      liveUrl: "https://example.com/aura-commerce",
-      githubUrl: "https://github.com/example/aura-commerce",
+      liveUrl: "https://example.com/aura-commerce", // TODO: Replace with your project demo URL
+      githubUrl: "https://github.com/Pranav5530", // TODO: Replace with project repository URL
       featured: true,
       imageAlt: "Aura commerce minimalist product catalog with high-resolution imagery and interactive cart drawer"
     },
@@ -263,15 +248,15 @@ export const portfolioData: PortfolioData = {
       title: "HyperFlow Distributed Cloud CLI",
       category: "Cloud & Systems",
       tagline: "Developer-first CLI and runtime SDK for multi-cloud workflow orchestration.",
-      description: "An open-source developer tool that automates ephemeral staging environments and container rollouts across AWS, GCP, and DigitalOcean with zero configuration overhead.",
+      description: "An open-source developer tool that automates ephemeral staging environments and container rollouts across cloud providers with zero configuration overhead.",
       highlights: [
-        "Earned over 3,200+ GitHub stars with active community contributions",
+        "Earned active community contributions and stars",
         "Implemented concurrent dependency resolution reducing pipeline build times by 45%",
         "Designed lightweight terminal UI with interactive progress spinners and color-coded telemetry"
       ],
       techStack: ["TypeScript", "Node.js", "Docker", "AWS SDK", "GitHub Actions"],
-      liveUrl: "https://example.com/hyperflow-cli",
-      githubUrl: "https://github.com/example/hyperflow-cli",
+      liveUrl: "https://example.com/hyperflow-cli", // TODO: Replace with your project demo URL
+      githubUrl: "https://github.com/Pranav5530", // TODO: Replace with project repository URL
       featured: false,
       imageAlt: "HyperFlow terminal CLI tool executing multi-container deployment stages with telemetry logs"
     }
@@ -279,89 +264,61 @@ export const portfolioData: PortfolioData = {
 
   experience: [
     {
-      id: "nexus-cloud-labs",
-      role: "Lead Full-Stack Architect",
-      company: "Nexus Cloud Labs",
+      id: "lead-architect",
+      role: "Lead Full-Stack Developer",
+      company: "Cloud & Web Solutions", // TODO: Update with your company/experience
       companyUrl: "https://example.com",
-      period: "2022 — Present",
-      location: "San Francisco, CA (Remote)",
+      period: "2023 — Present",
+      location: "Remote",
       type: "Full-time",
-      description: "Spearhead the core platform team building cloud infrastructure visualization and developer tooling for Fortune 500 engineering organizations.",
+      description: "Lead technical development of resilient web applications, responsive customer portals, and distributed API integrations.",
       achievements: [
-        "Led migration of monolithic dashboard into Next.js App Router micro-frontends, cutting initial bundle size by 54%",
-        "Designed and instituted the company-wide accessible component library used across 8 consumer-facing products",
-        "Mentored a distributed engineering team of 9 engineers across front-end, backend, and DevOps domains"
+        "Architected modern responsive web platforms delivering sub-second load times and 98+ Core Web Vitals",
+        "Instituted modular design systems and reusable component architectures across product lines",
+        "Mentored developer team members in modern TypeScript, React, and accessibility standards"
       ],
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Go", "AWS", "Docker", "GraphQL"]
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Docker", "PostgreSQL"]
     },
     {
-      id: "horizon-design-systems",
-      role: "Senior Frontend Engineer",
-      company: "Horizon Interactive",
+      id: "frontend-engineer",
+      role: "Frontend Engineer",
+      company: "Digital Interactive Labs", // TODO: Update with your company/experience
       companyUrl: "https://example.com",
-      period: "2020 — 2022",
-      location: "San Francisco, CA",
+      period: "2021 — 2023",
+      location: "Remote",
       type: "Full-time",
-      description: "Developed mission-critical web applications and design systems for enterprise SaaS clients, prioritizing accessibility, design fidelity, and sub-second load times.",
+      description: "Developed mission-critical web applications and design systems, prioritizing accessibility, design fidelity, and sub-second load times.",
       achievements: [
-        "Refactored legacy customer portal into React and TypeScript, boosting customer satisfaction scores by 38%",
-        "Implemented automated visual regression testing pipeline with zero false-positive escapees",
-        "Optimized Web Vitals across 14 high-traffic landing pages to achieve 95+ average performance scores"
+        "Refactored customer portal into modern React and TypeScript, boosting customer satisfaction scores",
+        "Implemented automated testing pipelines ensuring cross-browser reliability",
+        "Optimized Web Vitals across landing pages to achieve 95+ average performance scores"
       ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Jest", "Storybook", "CI/CD"]
-    },
-    {
-      id: "vertex-software",
-      role: "Software Engineer",
-      company: "Vertex Digital Solutions",
-      companyUrl: "https://example.com",
-      period: "2018 — 2020",
-      location: "San Jose, CA",
-      type: "Full-time",
-      description: "Built responsive client portals, backend REST microservices, and interactive data visualization interfaces for fin-tech and healthcare clients.",
-      achievements: [
-        "Delivered 12 complete full-stack web applications on schedule with 100% test coverage on business logic",
-        "Collaborated closely with UX designers to translate wireframes into accessible, pixel-perfect web interfaces",
-        "Authored comprehensive developer onboarding manuals that reduced new hire ramp-up time by 2 weeks"
-      ],
-      technologies: ["JavaScript (ES6+)", "React", "Node.js", "PostgreSQL", "CSS3 / Sass"]
+      technologies: ["React", "TypeScript", "Tailwind CSS", "REST APIs", "CI/CD"]
     }
   ],
 
   education: [
     {
-      id: "uc-berkeley",
-      degree: "B.S. in Computer Science & Human-Computer Interaction",
-      institution: "University of California, Berkeley",
-      period: "2014 — 2018",
-      location: "Berkeley, CA",
-      honors: "Dean's Honors List • Magna Cum Laude",
+      id: "degree-program",
+      degree: "B.S. in Computer Science / Information Technology", // TODO: Update with your degree
+      institution: "University / Institute", // TODO: Update with your institution
+      period: "Graduated", // TODO: Update graduation year
+      location: "Remote / Campus", // TODO: Update location
+      honors: "Academic Honors", // TODO: Update or remove honors
       details: [
-        "Coursework: Distributed Systems, Operating Systems, Computer Graphics, UI/UX Design, Data Structures & Algorithms",
-        "Lead Developer for Berkeley Web Development Student Association",
-        "Undergraduate Teaching Assistant for CS61B (Data Structures)"
-      ]
-    },
-    {
-      id: "aws-certification",
-      degree: "AWS Certified Solutions Architect – Associate",
-      institution: "Amazon Web Services",
-      period: "2023 — 2026",
-      location: "Global Credential",
-      details: [
-        "Credential ID: AWS-ASA-8492019",
-        "Specialization: High-availability architectures, serverless computing, edge CDN networks, and cloud security"
+        "Coursework: Web Development, Data Structures, Algorithms, Software Engineering, Database Systems",
+        "Active contributor to technical projects and open-source software"
       ]
     }
   ],
 
   contact: {
-    email: "contact.pranav.dev@gmail.com",
-    displayEmail: "contact.pranav.dev@gmail.com",
-    phone: "+1 (555) 019-2834",
-    location: "Remote / Worldwide",
-    timezone: "UTC / IST / Flexible for global teams",
-    formspreeId: "", // Optional: Enter your Formspree ID here (e.g. "xpvzlbak")
+    email: "TODO_EMAIL@example.com", // TODO: Add your contact email address
+    displayEmail: "TODO_EMAIL@example.com", // TODO: Add your display email address
+    phone: "TODO: Add phone number (optional)", // TODO: Add your phone or remove
+    location: "TODO: Add your location (e.g. Remote / City, Country)", // TODO: Add your location
+    timezone: "TODO: Add your timezone (e.g. UTC / IST / PST)", // TODO: Add your timezone
+    formspreeId: "", // Optional: Enter your Formspree ID here (e.g. "xpvzlbak") for contact form handling
     responseExpectation: "I typically respond within 24 hours."
   }
 };

@@ -71,8 +71,8 @@ You never need to touch the component code to personalize your site! Simply open
 ### 1. Personal Information & Taglines
 ```typescript
 personal: {
-  name: "Alex Morgan",
-  role: "Senior Full-Stack Engineer & Product Designer",
+  name: "Pranav",
+  role: "Full-Stack Developer & UI Designer",
   tagline: "Architecting high-performance web applications...",
   shortBio: "I am a senior full-stack engineer and UI designer...",
   fullBio: [

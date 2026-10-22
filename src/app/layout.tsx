@@ -3,7 +3,7 @@ import './globals.css';
 import { portfolioData } from '@/data/portfolio';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://alexmorgan.dev'),
+  metadataBase: new URL('https://portfolio-pranav.vercel.app'),
   title: `${portfolioData.personal.name} | ${portfolioData.personal.role}`,
   description: portfolioData.personal.shortBio,
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://alexmorgan.dev',
+    url: 'https://portfolio-pranav.vercel.app',
     title: `${portfolioData.personal.name} — ${portfolioData.personal.role}`,
     description: portfolioData.personal.tagline,
     siteName: `${portfolioData.personal.name} Portfolio`,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${portfolioData.personal.name} | ${portfolioData.personal.role}`,
     description: portfolioData.personal.tagline,
-    creator: '@alexmorgan_dev',
+    creator: portfolioData.personal.name,
   },
   robots: {
     index: true,
@@ -66,7 +66,7 @@ export default function RootLayout({
     name: portfolioData.personal.name,
     jobTitle: portfolioData.personal.role,
     description: portfolioData.personal.shortBio,
-    url: 'https://alexmorgan.dev',
+    url: 'https://portfolio-pranav.vercel.app',
     sameAs: portfolioData.socialLinks.map((link) => link.url),
     knowsAbout: portfolioData.skills.flatMap((cat) => cat.skills.map((s) => s.name)),
   };
@@ -76,6 +76,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
           rel="stylesheet"
